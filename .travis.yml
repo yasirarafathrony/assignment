@@ -4,5 +4,3 @@ services:
 
 
 
-script:
-  -docker run -e CI=true yasir/assignment npm run test
