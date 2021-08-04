@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+
+befor_install:
+  -docker build -t yasir/assignment -f Dockerfile ./frontend
+  -docker build -t yasir/assignment -f Dockerfile ./backend
+
+script:
+  -docker run -e CI=true yasir/assignment npm run test
