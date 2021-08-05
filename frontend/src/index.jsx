@@ -1,3 +1,12 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable comma-dangle */
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
+/* eslint-disable object-curly-spacing */
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable linebreak-style */
+/* eslint-disable no-console */
+/* eslint-disable linebreak-style */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
